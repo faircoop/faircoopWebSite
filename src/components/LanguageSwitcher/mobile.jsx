@@ -78,4 +78,4 @@ class LanguageMobile extends Component {
   }
 }
 
-export default translate('translations')(LanguageMobile)
+export default translate()(LanguageMobile)

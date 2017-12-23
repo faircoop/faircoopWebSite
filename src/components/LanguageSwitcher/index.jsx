@@ -77,4 +77,4 @@ class LanguageSwitcher extends Component {
   }
 }
 
-export default translate('translations')(LanguageSwitcher)
+export default translate()(LanguageSwitcher)

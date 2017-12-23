@@ -70,4 +70,4 @@ class Horizontal extends Component {
   }
 }
 
-export default translate('translations')(Horizontal)
+export default translate()(Horizontal)
