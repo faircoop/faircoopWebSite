@@ -53,12 +53,15 @@ class LanguageMobile extends Component {
       { code: 'cr', label: 'Croatian' },
       { code: 'de', label: 'German' },
       { code: 'en', label: 'English' },
+      { code: 'es', label: 'Spanish' },
       { code: 'fr', label: 'French' },
       { code: 'gr', label: 'Greek' },
       { code: 'it', label: 'Italian' },
       { code: 'ku', label: 'Kurdish' },
+      { code: 'pr', label: 'Portuguese' },
+      { code: 'ru', label: 'Russian' },
       { code: 'se', label: 'Serbian' },
-      { code: 'es', label: 'Spanish' }
+      { code: 'tu', label: 'Turkish' }
     ]
     return (
       <div className='languages_container' onClick={() => this.handleDropdown()}>
